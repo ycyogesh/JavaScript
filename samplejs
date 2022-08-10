@@ -135,17 +135,14 @@ for(let i = 0;i<test1.length;i++){
 
 // 4. Add Another Object for Sooriya Balaji
 
-let a = students.length
+test1.push({
+    'name' : 'soriyabalaji','dob' :'20-02-1997','id' : 11,'skills' : {'language' : 'c','fend' : 'html','bend' : 'express'},'marks' :{'database' : '65','database' : '65'},'address' : {'no' : "5",
+    'street' : 'arni',
+    'city' : 'villupuram',
+    'pincode' : 605103}
+    
+})
+//console.log(test1[3])
 
-students[a].name = 'soriyabalaji'
-students[a].dob = '20-02-1997'
-students[a].id = 11
-students[a].skills.language = 'c'
-students[a].skills.fend = 'html'
-students[a].skills.bend = 'express'
-students[a].marks.web =  
-'name' : 'suryapriya','dob' : '17-06-2001','id' : 3,
-        'skills' : {'language' : 'c','fend' : 'css', 'bend' : 'nodeJs'},
-        'marks' : {'web' : 101,'database' : 101},
-        'address' : {'no' : '4','street' : 'kakuppam','city' : 'villupuram','pincode' : 605103}
 
+// 5. 
