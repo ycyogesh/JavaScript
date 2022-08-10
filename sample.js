@@ -134,6 +134,20 @@ for(let i = 0;i<test1.length;i++){
         break
     }
 }
+var sum1 = 0
+var sum2 = 0
+for(let i = 0;i<test1.length;i++){
+    if(e==test1[i].name){
+        sum1 = Object.keys(test1[i].marks)
+        //sum2 = sum1 + test1[i].marks.sum1[i]
+    }
+}
+for(let i = 0;i<sum1.length;i++){
+    sum2 = sum2 + test1[i].marks.sum1[i]
+}
+console.log(sum2);
+
+
 
 
 // 4. Add Another Object for Sooriya Balaji
@@ -187,9 +201,5 @@ for(let i = 0;i<test1.length;i++){
 // 9. List of All Person's Salary
 
 for(let i = 0;i<test1.length;i++){
-    console.log(test1[i].name,test1[i].amount);
-<<<<<<< HEAD
+    //console.log(test1[i].name,test1[i].amount);
 }
-=======
-}
->>>>>>> 544fc91f74017ee09e4aaaeef0d5f670a6ee9ceb
