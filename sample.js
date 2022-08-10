@@ -188,4 +188,8 @@ for(let i = 0;i<test1.length;i++){
 
 for(let i = 0;i<test1.length;i++){
     console.log(test1[i].name,test1[i].amount);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 544fc91f74017ee09e4aaaeef0d5f670a6ee9ceb
