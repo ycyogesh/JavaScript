@@ -104,6 +104,7 @@ let c = 'suryapriya'
 for(let i = 0;i<test1.length;i++){
     if(b==test1[i].name){
         //console.log(test1[i].skills);
+        break
     }
 }
 
@@ -118,6 +119,7 @@ for(let i = 0;i<test1.length;i++){
         test1[i].address.city = "Pudukkottai"
         test1[i].address.pincode = 600423
         //console.log(test1[i].address);
+        break
     }
 }
 
@@ -127,8 +129,9 @@ let e = 'yogesh'
 
 for(let i = 0;i<test1.length;i++){
     if(e==test1[i].name){
-        let sum = test1[i].marks.web + test1[i].marks.database
+        let sum = test1[i].marks.web + test1[i].marks.database  //object.keys(test1[i],'marks')
         //console.log("Sum is",sum)
+        break
     }
 }
 
@@ -145,4 +148,33 @@ test1.push({
 //console.log(test1[3])
 
 
-// 5. 
+// 5. Add amount field
+
+let amount = 10000
+for(let i = 0;i<test1.length;i++){
+    amount = parseInt(amount * 1.2)
+    test1[i]['amount'] = amount
+    break
+}
+
+
+
+// 6. Find Largest Amount
+let max =0
+max = test1[0].amount
+for(let i = 0;i<test1.length;i++){
+    if(test1[i].amount>max){
+        max = test1[i].amount
+    }
+}//console.log(max)
+
+
+// 7. Who knows HTML
+
+let f = 'html'
+
+for(let i = 0;i<test1.length;i++){
+    if(f==test1[i].skills.fend){
+        console.log(test1[i].name)
+    }
+}
