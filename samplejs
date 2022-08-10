@@ -175,6 +175,12 @@ let f = 'html'
 
 for(let i = 0;i<test1.length;i++){
     if(f==test1[i].skills.fend){
-        console.log(test1[i].name)
+        //console.log(test1[i].name)
     }
+}
+
+// 8. Name and City of a Person
+
+for(let i = 0;i<test1.length;i++){
+    //console.log(test1[i].name,test1[i].address.city);
 }
