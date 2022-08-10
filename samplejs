@@ -154,7 +154,6 @@ let amount = 10000
 for(let i = 0;i<test1.length;i++){
     amount = parseInt(amount * 1.2)
     test1[i]['amount'] = amount
-    break
 }
 
 
@@ -183,4 +182,10 @@ for(let i = 0;i<test1.length;i++){
 
 for(let i = 0;i<test1.length;i++){
     //console.log(test1[i].name,test1[i].address.city);
+}
+
+// 9. List of All Person's Salary
+
+for(let i = 0;i<test1.length;i++){
+    console.log(test1[i].name,test1[i].amount);
 }
