@@ -3,7 +3,8 @@ var e,i;
 
 a.forEach((e,i) => {
     console.log("row",i);{
-        
+        e.forEach((b,i) =>{
+            console.log(b);
+        })
     }
-
 });
