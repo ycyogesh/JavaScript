@@ -1,6 +1,6 @@
 var arr1 = [ 3, 8, 7, 6, 5, -4, 3, 2, 1 ]
 var a,minj,v,e;
-var arr2 = []
+// var arr2 = []
 var c =arr1.forEach((e,i) =>{
     let min = e
     minj = i
