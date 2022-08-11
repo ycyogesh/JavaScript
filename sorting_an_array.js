@@ -6,11 +6,11 @@ arr1.forEach((e,i) =>{
     minj = i
     arr1.forEach((v,j) =>{
     if(v<min){
-        min = arr1[i]
+        min = arr1[j]
         minj = j
     }})
     let t = arr1[i]
     arr1[i] = min
     arr1[minj] = t
     })
-console.log(arr2);
+console.log(arr1);
