@@ -47,8 +47,11 @@ b = a.map(e => {
 })
 */
 
+/*
 b = a.reduce((a,b)=>{
-    console.log(a,b)
+    console.log("a =",a,"b =",b)
     return a+b
 })
-console.log(b);
+console.log("Sum is",b);
+
+*/
