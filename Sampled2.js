@@ -7,12 +7,17 @@ for(i in a){
 for(i of a){
     console.log(i)
 }
-*/
-var sum = 0
+
+var sum = 1
 a.forEach(myfunction)
 
 function myfunction(v,i,a){
     console.log(v);
-    sum = sum + v
+    sum = sum * v
 }
 console.log(sum);
+*/
+
+a.forEach(function(v,i,a){
+    console.log(v);
+})
