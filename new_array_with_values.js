@@ -1,10 +1,11 @@
 list = [{'name': 'Elie'}, {'name': 'Tim'}, {'name': 'Matt'}, {'name': 'Colt'}]
 
-var a = list.forEach(extractKey);
 var v;
-console.log(a);
+var b = []
+list.forEach(extractKey);
+console.log(b);
 
 
 function extractKey(v,i,a){
-    return v.name;
+    return b[i]=v.name;  
 }
