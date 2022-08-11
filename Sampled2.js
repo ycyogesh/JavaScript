@@ -55,3 +55,4 @@ b = a.reduce((a,b)=>{
 console.log("Sum is",b);
 
 */
+
