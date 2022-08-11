@@ -1,15 +1,17 @@
 var arr1 = [ 3, 8, 7, 6, 5, -4, 3, 2, 1 ]
-let a
+var a,minj;
 var arr2 = []
-b = arr1.forEach(e =>{
-    if(e>a){
-        let t = e
-        e = a
-        a = t
-        // console.log(t);
-        arr2+=e
-    }else{
-        arr2+=e
-    }
-})
-console.log(arr2)
+arr1.forEach((e,i) =>{
+    let min = e[i]
+    minj = i
+    arr1.forEach(v,j =>{
+    if(arr1[j]<min){
+        min = arr1[i]
+        minj = j
+
+    }})
+    let t = arr1[i]
+    arr1[i] = min
+    arr1[minj] = t
+    })
+console.log(arr2);
