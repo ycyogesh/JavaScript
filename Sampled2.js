@@ -36,5 +36,19 @@ a.forEach((v)=> console.log(this));
 //console.log(a.map(e=>e+1))
 //console.log(a.filter(e=>e>2 && e<12))
 
-let b = a.filter(e=>e>2 && e<12)
+//let b = a.filter(e=>e>2 && e<12)
+//console.log(b);
+
+/*
+let b =0 
+b = a.map(e => {
+    console.log('current elemnt',e,e>2)
+    console.log(b);
+})
+*/
+
+b = a.reduce((a,b)=>{
+    console.log(a,b)
+    return a+b
+})
 console.log(b);
