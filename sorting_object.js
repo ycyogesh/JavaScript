@@ -23,12 +23,18 @@ sort_object(library);
 
 function sort_object(a) {
     a.forEach((e,i)=>{
-        let min = e.libraryID[i]
+        let min = e.libraryID
         let minj = i
-        if(min<e.libraryID[i]){
-            e[i] = e[i+1]
-        }
-       console.log(e);
+        a.forEach((v,j)=>{
+            if(min>v.libraryID && i<j){
+                min = v.libraryID
+                minj = j
+            }
+        })
+        t = a[i]
+        a[i] = a[minj]
+        a[minj] = t
+    
     })
-
+    console.log(a);
 }
