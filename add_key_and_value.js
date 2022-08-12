@@ -6,5 +6,5 @@ console.log(names);
 
 
 function addKeyandValue(v,i,a){
-    return v['title'] = 'instructor'
+    return v.title = 'instructor'
 }
