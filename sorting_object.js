@@ -1,4 +1,4 @@
-var a,e,v;
+var a,e,v,j;
 
 var library = [
     {
@@ -23,11 +23,12 @@ sort_object(library);
 
 function sort_object(a) {
     a.forEach((e,i)=>{
-        if(e.libraryID[i] > e.libraryID[i+1]){
-            e[i+1] = e[i]
-            
-        }console.log(e);
+        let min = e.libraryID[i]
+        let minj = i
+        if(min<e.libraryID[i]){
+            e[i] = e[i+1]
+        }
+       console.log(e);
     })
+
 }
-
-
