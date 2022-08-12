@@ -1,4 +1,14 @@
-a = [1,13,2,5]
+//a = [11,2,22,1]
+a = ["y","o","g","e","s","h"]
+//Array.sort()
+
+a.sort((a,b)=>{
+    console.log("a-->",a,"b-->",b,"(a-b)-->",a>b)
+    return a>b
+})
+console.log(a);
+
+
 
 /*
 for(i in a){
