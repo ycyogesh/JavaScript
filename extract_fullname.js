@@ -2,11 +2,14 @@ names = [{'first': 'Elie', 'last':"Schoppik"}, {'first': 'Tim', 'last':"Garcia"}
     'Matt', 'last':"Lane"}, {'first': 'Colt', 'last':"Steele"}]
 
     var v;
-var b = []
-names.forEach(extractFullName);
-console.log(b);
-
+var b,e,i;
 
 function extractFullName(v,i,a){
-    return b[i]=v.first +" "+ v.last;  
+    b = v.map((e)=>{
+        return (e[i] +" "+e[a]);  
+})
+    return b;
 }
+    
+extractFullName(names,'first','last');
+console.log(b);
