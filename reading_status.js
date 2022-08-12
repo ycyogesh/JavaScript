@@ -15,5 +15,6 @@ var library = [
     'readingStatus': false}];
 var e;
 library.forEach(e =>{
+    if(e.readingStatus==true)
     console.log(e);
 })
