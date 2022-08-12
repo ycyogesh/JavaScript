@@ -22,6 +22,6 @@ library.forEach(e =>{
 */
 
 let a = library.filter(e=>{
-    return e.readingStatus
+    return e.readingStatus==true
 })
 console.log(a);
