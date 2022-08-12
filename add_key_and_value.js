@@ -1,10 +1,12 @@
 names = [{'name': 'Elie'}, {'name': 'Tim'}, {'name': 'Matt'}, {'name': 'Colt'}]
 
 var v;
-names.forEach(addKeyandValue);
+addKeyAndValue(names,)
 console.log(names);
 
 
-function addKeyandValue(v,i,a){
-    return v.title = 'instructor'
+function addKeyAndValue(a){
+    a.forEach(e=> {
+        return e['title'] = 'instructor'
+    });
 }
