@@ -34,7 +34,6 @@ function sort_object(a) {
         t = a[i]
         a[i] = a[minj]
         a[minj] = t
-    
     })
     console.log(a);
 }
