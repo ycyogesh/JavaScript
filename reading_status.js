@@ -14,7 +14,14 @@ var library = [
     'title': 'Mockingjay: The Final Book of The Hunger Games',
     'readingStatus': false}];
 var e;
+/*
 library.forEach(e =>{
-    if(e.readingStatus==true)
+    if(e.readingStatus=='true')
     console.log(e);
 })
+*/
+
+let a = library.filter(e=>{
+    return e.readingStatus
+})
+console.log(a);
