@@ -9,7 +9,6 @@ a.sort((a,b)=>{
 console.log(a);
 
 
-
 /*
 for(i in a){
     console.log(i)
